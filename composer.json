@@ -1,5 +1,5 @@
 {
-    "name": "sylius/omnipay-bundle",
+    "name": "nathanlon/omnipay-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 integration with Omnipay - multi-gateway, payment processing library.",
     "keywords": ["shop", "ecommerce", "sylius", "payment", "merchant", "gateway", "paypal", "authorize.net", "dps", "paymentexpress", "omnipay"],
