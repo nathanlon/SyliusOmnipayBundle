@@ -32,7 +32,8 @@ class Configuration implements ConfigurationInterface
         $builder = new TreeBuilder();
         $rootNode = $builder->root('sylius_omnipay');
 
-        $gateways = GatewayFactory::find();
+        $factory = new GatewayFactory();
+        $gateways = $factory->find();
         $omnipayCc = new CreditCard();
         $ccTypes = array_keys($omnipayCc->getSupportedBrands());
 
